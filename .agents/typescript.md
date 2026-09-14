@@ -14,7 +14,7 @@ Never cast types unless absolutely necessary. This includes:
 
 Infer types by going up the logical chain:
 
-1. **Schema validation** as source of truth (e.g. Zod)
+1. **Schema validation** as source of truth (e.g. Zod/Valibot, or Drizzle schema)
 2. **Type inference** from function return types, API responses
 3. **Fix at source** (schema, API definition, function signature) rather than casting at point of use
 
